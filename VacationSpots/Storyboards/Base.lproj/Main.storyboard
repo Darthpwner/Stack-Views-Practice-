@@ -126,10 +126,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d31-cr-q2K">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d31-cr-q2K">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3eM-SJ-893">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3eM-SJ-893">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="290"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHY VISIT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORI-tY-KjD">
@@ -196,20 +196,20 @@
                                                 <color key="textColor" red="1" green="0.70588235294117641" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DVW-I5-rav">
-                                                <rect key="frame" x="20" y="240" width="231" height="30"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="DVW-I5-rav">
+                                                <rect key="frame" x="20" y="240" width="280" height="30"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wZB-P3-4pB">
-                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="30"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wZB-P3-4pB">
+                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="30"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="e7C-xT-C2s">
-                                                                <rect key="frame" x="0.0" y="0.0" width="231" height="30"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="e7C-xT-C2s">
+                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="30"/>
                                                                 <subviews>
-                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y3o-8j-fv9">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="231" height="30"/>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y3o-8j-fv9">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="30"/>
                                                                         <subviews>
                                                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vi1-Tq-gH0">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="146" height="30"/>
                                                                                 <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <state key="normal" title="Submit Rating"/>
                                                                                 <connections>
@@ -217,7 +217,7 @@
                                                                                 </connections>
                                                                             </button>
                                                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPk-7c-5ID">
-                                                                                <rect key="frame" x="97" y="0.0" width="67" height="30"/>
+                                                                                <rect key="frame" x="146" y="0.0" width="67" height="30"/>
                                                                                 <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <state key="normal" title="View Map"/>
                                                                                 <connections>
@@ -225,7 +225,7 @@
                                                                                 </connections>
                                                                             </button>
                                                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0z-xq-log">
-                                                                                <rect key="frame" x="164" y="0.0" width="67" height="30"/>
+                                                                                <rect key="frame" x="213" y="0.0" width="67" height="30"/>
                                                                                 <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <state key="normal" title="Wikipedia"/>
                                                                                 <connections>
@@ -249,13 +249,17 @@
                                             <constraint firstItem="rai-yh-ty5" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="B4B-Jb-Vyn"/>
                                             <constraint firstItem="qyy-tr-bB0" firstAttribute="baseline" secondItem="TxW-cB-BwZ" secondAttribute="baseline" id="GHg-bS-Avi"/>
                                             <constraint firstItem="7I7-MX-xvN" firstAttribute="trailing" secondItem="3eM-SJ-893" secondAttribute="trailingMargin" id="Npa-Bu-92G"/>
+                                            <constraint firstItem="DVW-I5-rav" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="SPj-ln-MzQ"/>
+                                            <constraint firstItem="DVW-I5-rav" firstAttribute="top" secondItem="TxW-cB-BwZ" secondAttribute="bottom" constant="20" id="Wcq-pb-cML"/>
                                             <constraint firstItem="TxW-cB-BwZ" firstAttribute="leading" secondItem="qyy-tr-bB0" secondAttribute="trailing" constant="8" id="XzZ-pq-lMh"/>
                                             <constraint firstItem="yK3-Tf-1ae" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="Y1U-qR-6ED"/>
                                             <constraint firstItem="h9g-1Y-kSS" firstAttribute="trailing" secondItem="3eM-SJ-893" secondAttribute="trailingMargin" id="aCJ-Nb-ikH"/>
                                             <constraint firstItem="7I7-MX-xvN" firstAttribute="top" secondItem="ORI-tY-KjD" secondAttribute="bottom" id="dMI-1H-pCo"/>
+                                            <constraint firstItem="DVW-I5-rav" firstAttribute="bottom" secondItem="3eM-SJ-893" secondAttribute="bottomMargin" id="doH-gu-dgL"/>
                                             <constraint firstItem="qyy-tr-bB0" firstAttribute="top" secondItem="rai-yh-ty5" secondAttribute="bottom" constant="20" id="gVu-xs-edP"/>
                                             <constraint firstItem="yK3-Tf-1ae" firstAttribute="top" secondItem="h9g-1Y-kSS" secondAttribute="bottom" constant="20" id="kbL-i7-Kie"/>
                                             <constraint firstItem="Ktb-bF-Vf4" firstAttribute="baseline" secondItem="JGt-cb-Lyg" secondAttribute="baseline" id="lf5-Vf-waJ"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="DVW-I5-rav" secondAttribute="trailing" id="mlt-rW-YLb"/>
                                             <constraint firstItem="rai-yh-ty5" firstAttribute="trailing" secondItem="3eM-SJ-893" secondAttribute="trailingMargin" id="phi-hL-7nR"/>
                                             <constraint firstItem="rai-yh-ty5" firstAttribute="top" secondItem="yK3-Tf-1ae" secondAttribute="bottom" id="rDC-tO-Cb1"/>
                                             <constraint firstItem="Ktb-bF-Vf4" firstAttribute="leading" secondItem="JGt-cb-Lyg" secondAttribute="trailing" constant="8" id="rYc-lx-bU0"/>
